@@ -1,0 +1,29 @@
+body{
+    background-color: green;
+}
+.courses{
+    font-size:x-large;
+    left:10%;
+    color:white;
+    text-decoration-line: underline;
+}
+
+.list{
+    left: 10%;
+    color: black;
+}
+
+.list dt{
+    font-size: large;
+}
+
+.list dd{
+    font-size: large;
+    left:10%;
+    text-decoration-line: none;
+    color: black;
+}
+
+.list span{
+    font-size: large;
+}

@@ -1,0 +1,374 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.container{
+  height: 100vh;
+  width:100%;
+  background: url("../images/clg3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header{
+  display: flex;
+   margin: 0%;
+    background-color:green;
+    position: sticky;
+    height:20%;
+}
+.header img{
+    margin:0px;
+    padding:0px;
+    width :75px;
+    height :75px;
+    box-shadow: #000;
+    
+}
+.header h1{
+    margin: 0%;
+    padding-top: 1%;
+    font-size:32px;
+    top:20px;
+    display: flex;
+    flex-direction: row;
+    color:rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px black;
+}
+.header #h51{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  float: right;
+  right:0%;
+  margin-right:10px;
+  position: absolute;
+}
+
+#h51 {
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#h51:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+
+.header #h52{
+  background: #125688;
+  color: white;
+}
+.header a{
+  text-decoration-line: none;
+  color: #ffffff;
+
+}
+
+
+.menu{
+  position:sticky;
+    width:100%;
+  
+}
+.menu input{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+    
+}
+.menu input{
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.menu input:hover{
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.welcome{
+    left:350px;
+    top: 34%;
+    display: inline;
+    text-align: center;
+    font-size: large;
+    color:white;
+    text-shadow: 2px 2px 5px black;
+}
+.news {
+  width:25%;
+  position: relative;
+  z-index: 1;
+  top: 20px;
+  left: 10px;
+  background:green;
+  overflow-x: hidden;
+  padding: 8px 0;
+  text-align: center;
+}
+
+.news a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color:white;
+  display: block;
+  border:3px solid white;
+  border-top: none;
+}
+
+.news a:hover {
+  color:white;  
+}  
+.news #ah{
+  border:2px solid white;
+  color: white;
+}
+
+
+.highlights1{
+    background: green;
+    top:30%;
+    right:40%;
+    width: 400px;
+    height: 350px;
+    border: 3px solid rgb(255, 255, 255);
+    position: absolute;
+}
+
+.highlights1 h3{
+    text-align: center;
+    font-size: 28px;
+    color: white;
+}
+
+.highlights1 img{
+    width: 394px;
+    height: 280px;
+    padding-left: 2px;
+    padding-top: 2px;
+}
+
+.highlights2{
+  background: green;
+  top:30%;
+  width: 400px;
+  height: 350px;
+  border: 3px solid rgb(255, 255, 255);
+  position: absolute;
+  right:8%;
+}
+
+.highlights2 h3{
+    text-align: center;
+    font-size: 28px;
+    color:white
+    
+}
+
+.highlights2 img{
+    width: 394px;
+    height: 280px;
+    padding-left: 2px;
+    padding-top: 2px;
+}
+  
+.container2 {
+    background: white;
+    margin:2px white;
+    width:100%;
+    position: relative;
+    display: flex;
+    height: 100vh;
+    }
+  
+  .left{
+  margin:20px;
+  padding-left:30px;
+  padding-right:10px;
+  position: relative;
+   width: 900px;
+   height: 700px;
+   border: 3px  #73AD21;
+  top:100px;
+  display:block;
+  }
+  
+  .left h1{
+  font-size:42px;
+  margin:0px;
+  padding-left:10px;
+  border-left:5px solid green;
+  text-align:left;
+  font-color:#000000;
+  }
+  
+  .left span{
+  margin:0px;
+  padding:0px;
+  font-size:36px; 
+  font-color:#000000;
+  }
+  
+  .left p{
+  margin:0px;
+  padding:0px;
+  border:5px ;
+  text-align:justify;
+  font-size:18px;
+  width:85%;
+  height:50%;
+  }
+  
+  .right #loc{
+   position: absolute;
+   top:15%;
+    right: 40px;
+    width: 500px;
+    height: 600px;
+    border: 8px solid green;
+    border-radius:10px;
+  }
+  .container3{
+    background-color: white;
+    margin:2px solid white;
+    width:100%;
+    position: relative;
+    height:70vh;
+  }
+  .headings{
+    margin-left: 8%;
+    margin-top: 6%;
+    font-size: large;
+    color: #000000;
+    text-decoration-line: underline;
+  }
+   
+  .vision {
+  margin:10px;
+  margin-left:9%;
+  margin-top: 6.5%;
+  border:3px solid green;
+  width:450px;
+  height:290px;
+  text-align:center;
+  
+  }
+  
+  .vision h2{
+  font-size:32px;
+  text-align:center;
+  }
+  
+  .mission {
+  border:3px solid green;
+  right:9%;
+  top:24%;
+  height:290px;
+  width:480px;
+  text-align:left;
+  position:absolute;
+  }
+  
+  .mission h2{
+    padding: 0;
+  font-size:32px;
+  text-align:center;
+  }
+  
+  .mission p{
+  font-size:18px;
+  text-align:left;
+  padding:0px;
+  padding-left:40px;
+  padding-top:10px;
+  height:300px;
+  width:400px;
+  }
+
+  .container4{
+    background-color: rgb(255, 255, 255);
+    border:20px solid green;
+    width:100%;
+    position: relative;;
+    height: 100vh; 
+    border-style:double;
+  }
+  .heading{
+    padding-top: 1%;
+    padding-left: 2%;
+    font-size:38px;
+    color: #000;
+  }
+
+  .container4 h3{
+    font-size: 30px;
+    padding-left: 3%;
+  }
+  .container4 div{
+    color: white;
+    height: 120px;
+    width: 90%;
+    display: block;
+    margin:auto;
+    display: block;
+  }
+  .container4 p{
+    color:#ffffff;
+    font-size: 28px;
+    padding-left: 3%;
+  }
+  .container4 span{
+    size:48px;
+    color: white;
+  }
+  .container4 a{
+    text-decoration-line: none;
+    color: white;
+  }
+  .container4 img{
+    float: right;
+    height:100px;
+    width: 800px;
+  }
+  .cme{
+    background-image: url(../images/bg2.png);
+    background-size: cover;
+    
+  }
+  .civil{
+    background-image: url(../images/bg3.png);
+    background-size: cover;
+  }
+ .eee{
+  background-image: url(../images/bg6.png);
+  background-size: cover;
+ }
+ .mec{
+  background-image: url(../images/bg5.jpg);
+  background-size: cover; 
+ }
+ .ccp{
+  background-image: url(../images/bg4.jpg);
+  background-size: cover;  
+ }
+
+
+

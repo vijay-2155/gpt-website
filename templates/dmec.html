@@ -1,0 +1,85 @@
+{% load static %}
+<html>
+<head>
+<title>
+Branch</title>
+<style type="text/css">
+    
+    p.p1{
+        border-style: solid;
+        border-color: black
+    }
+    p.p2{
+        border-style: solid;
+        border-width: 5 px; 
+        box-sizing:content-box;
+        
+    }
+    p.p3{
+        border-style: solid;
+        border-width: 2px; 
+        box-sizing:content-box;
+    }
+
+    body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 2000   ;
+    font-style: oblique;
+}
+    #slider{
+        overflow: hidden;
+    }
+    #slider figure{
+        position: relative;
+        margin: 30;
+        left: 200;
+        width: 150%;
+        height: 40%;
+        animation: 25s slider infinite;
+            }
+
+        #slider figure img{
+          
+            width: 20%;
+        }    
+        @keyframes slider{
+            0%{
+                left: 4;
+            }
+            20%{
+                left: 4;
+            }
+            25%{
+                left: -53%;
+            
+        }
+        
+    }
+    nav{
+            background-color: green;
+        }
+        </style>
+        
+
+        <nav><h1  style="text-align: center; text-indent: 30px;color: white; ">DMEC</h1></nav>
+<b>DMEC  is the study of physical machines that may involve force and movement. It is an engineering branch that combines engineering physics and mathematics principles with materials science, to design, analyze, manufacture, and maintain mechanical systems.It requires an understanding of core areas including mechanics, dynamics, thermodynamics, materials science, design, structural analysis, and electricity. In addition to these core principles, mechanical engineers use tools such as computer-aided design (CAD), computer-aided manufacturing (CAM) </b>
+<div id="slider">
+<figure>
+<img src="{%static 'images/dmec2.jpg'%}" height="450" width="900">
+<img src="{%static 'images/dmec2.jpg'%}" height="450" width="900">
+<img src="{%static 'images/dmec3.webp'%}" height="450" width="900">
+
+</figure>    
+</div>
+
+<ul type="square"><li><h2>Vision</h2></li></ul>
+<span><p class="p2"style="background-color: lightgreen; padding: 10px;">To be a global knowledge hub in mechanical engineering education, research, entrepreneurship and industry outreach services. be regionally, nationally and internationally recognized in providing mechanical engineering education, leading to well qualified engineers who are innovative, immediate contributors to their profession and successful in advanced studies.</span><br/></p>
+<ul type="square"><li><h2>Mission</h2></li></ul>
+<span style="text-align: center;"><p class="p3" style="background-color: lightgreen;padding: 10px;">Impart quality education and training to nurture globally competitive mechanical engineers.
+
+Provide vital state-of-the-art research facilities to create, interpret, apply and disseminate knowledge.
+
+Develop linkages with world class educational institutions and R&D organizations for excellence in teaching, research and consultancy services.</span></p>
+
+</head>
+</html>
